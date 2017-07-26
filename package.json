@@ -1,0 +1,32 @@
+{
+  "name": "laksa-klaxon-alexa",
+  "version": "1.0.0",
+  "description": "Alexa Skill for Laksa Klaxon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamlen/laksa-klaxon-alexa.git"
+  },
+  "keywords": [
+    "laksa-klaxon",
+    "alexa",
+    "skill"
+  ],
+  "author": "jamlen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamlen/laksa-klaxon-alexa/issues"
+  },
+  "homepage": "https://github.com/jamlen/laksa-klaxon-alexa",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "laksa-klaxon-core": "^1.0.1",
+    "lodash": "^4.17.4",
+    "restler": "^3.4.0"
+  }
+}
