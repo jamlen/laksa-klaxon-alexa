@@ -4,7 +4,8 @@
   "description": "Alexa Skill for Laksa Klaxon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -9 -r --exclude=*.git* --exclude=.npmignore --exclude=*.png --exclude=README.md --exclude=LICENSE --exclude=*.zip laksa-klaxon-alexa.zip ."
   },
   "repository": {
     "type": "git",
